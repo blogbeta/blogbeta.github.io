@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Cốc Cốc</ShortName>
+<Description>Use Cốc Cốc to search on coccoc.com</Description>
+<Image width="16" height="16" type="image/x-icon"https://raw.githubusercontent.com/blogbeta/blogbeta.github.io/main/icon.png"</Image>
+<Url type="text/html" template="https://coccoc.com/search?query={searchTerms}&s=os"/>
+<Url type="application/x-suggestions+json" method="GET" template="https://coccoc.com/composer/autocomplete?of=b&q={searchTerms}&s=os"/>
+<InputEncoding>UTF-8</InputEncoding>
+<OutputEncoding>UTF-8</OutputEncoding>
+</OpenSearchDescription>
